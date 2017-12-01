@@ -1,0 +1,16 @@
+{
+  "name": "cube-sat-platform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.5.1"
+  },
+  "scripts": {
+    "clean": "lerna exec -- rm -rf node_modules && rm -rf node_modules"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
