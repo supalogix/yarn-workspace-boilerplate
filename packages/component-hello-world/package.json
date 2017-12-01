@@ -1,0 +1,10 @@
+{
+  "name": "@scope/component-hello-world",
+  "version": "1.0.0",
+  "main": "lib",
+  "module": "src",
+  "license": "MIT",
+  "scripts": {
+    "compile": "babel src -d lib --source-maps"
+  }
+}

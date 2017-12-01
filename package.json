@@ -1,7 +1,6 @@
 {
-  "name": "cube-sat-platform",
+  "name": "yarn-workspace-boilerplate",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "lerna": "^2.5.1"

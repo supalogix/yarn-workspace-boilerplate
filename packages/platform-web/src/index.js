@@ -1,7 +1,8 @@
 import React from "react"
 import {render} from "react-dom"
+import HelloWorld from "@scope/component-hello-world"
 
 render(
-    <h1>Hello World</h1>,
+    <HelloWorld />,
     document.getElementById("root")
 )
